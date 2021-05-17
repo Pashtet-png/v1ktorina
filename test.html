@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="">
+    <title>Викторина</title>
+</head>
+<body>
+    <form method="POST" action = "/test">
+        <p><b>{{ q[1] }</b></p>
+
+        <p><input type = "radio" name = "answer" value="1">{{ q[2] } </p>
+        <p><input type = "radio" name = "answer" value="1">{{ q[3] } </p>
+        <p><input type = "radio" name = "answer" value="1">{{ q[4] } </p>
+        <p><input type = "radio" name = "answer" value="1">{{ q[5] } </p>
+
+        <input type = "submit" value = "Отвечай">
+    </form>
+</body>
+</html>
